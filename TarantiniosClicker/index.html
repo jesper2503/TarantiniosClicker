@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tarantinios Clicker</title>
+    <link rel="stylesheet" href="cssDocuments/index.css">
+    <link rel="icon" href="cssDocuments/imgFolder/tarantiniosImg.png">
+  </head>
+  <body>
+    <p id="$PerSecond">You are gaining 0 $ per/s</p>
+
+    <a href=# onclick="add()"><img src="cssDocuments/imgFolder/tarantiniosImg.png" width = 300 height = 300 alt="Image Could Not be Found!"></a>
+
+    <br><br>
+
+    You got:
+    <input type="text" id="text" disabled style = text-align:center value = 0>
+    $
+
+    <br><br>
+
+    <button><a href="#" onclick="save()">Save</a></button>
+    <button><a href="#" onclick="load()">Load</a></button>
+
+    <br><br><br><br>
+
+    <p>Buy 1 Click Multiplier</p>
+    <button><a href="#" onclick="buyClickMultiplier()"><img src="cssDocuments/imgFolder/clickMultiplier.png" width = 110px height = 110px alt="Image Could Not be Found!"></a></button>
+    <p id="costClickMultiplier">100 $</p>
+    <p id="ammountClickMultiplier">You Own 0 Click Multipliers!</p>
+
+    <br><br>
+
+    <p>Buy 1 Hooker Gares</p>
+    <button><a href="#" onclick="buyHookerGares()"><img src="cssDocuments/imgFolder/hookerGares.png" width = 80px height = 80px alt="Image Could Not be Found!"></a></button>
+    <p id="costHookerGares">10 $</p>
+    <p id="ammountHookerGares">You Own 0 Hooker Gareses!</p>
+
+    <br><br>
+
+    <p>Buy 1 Pimp Leis</p>
+    <button><a href="#" onclick="buyPimpLeis()"><img src="cssDocuments/imgFolder/pimpLeis.png" width = 80px height = 80px alt="Image Could Not be Found!"></a></button>
+    <p id="costPimpLeis">100 $</p>
+    <p id="ammountPimpLeis">You Own 0 Pimp Leises!</p>
+
+    <script src="jsDocuments/index.js"></script>
+  </body>
+</html>
