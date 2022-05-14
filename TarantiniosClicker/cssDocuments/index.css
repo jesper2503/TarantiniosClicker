@@ -1,3 +1,68 @@
-body{
-  text-align: center;
+body {
+  display: grid;
+  grid-template-rows: 45px auto 45px;
+  background-image: url(imgFolder/boxGif.gif);
+  background-repeat: repeat;
+  width: 100%;
+  background-size: auto;
+  font-family: "Roboto Condenced", sans-serif;
+  font-weight: bold;
+  color: #F6E7DC;
+}
+
+button {
+  background-color: #E0C0AB;
+  border-color: #E0C0AB;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: auto 500px auto;
+}
+
+#leftHeader {
+
+}
+
+#midHeader {
+
+}
+
+#rightHeader {
+
+}
+
+#main {
+  display: grid;
+  grid-template-columns: auto 500px auto;
+}
+
+#leftMain {
+
+}
+
+#midMain {
+ background-color: #E1B89E;
+ text-align: center;
+}
+
+#rightMain {
+
+}
+
+#footer {
+  display: grid;
+  grid-template-columns: auto 500px auto;
+}
+
+#leftFooter {
+
+}
+
+#midFooter {
+
+}
+
+#rightFooter {
+
 }
